@@ -1,6 +1,4 @@
 * {
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -31,4 +29,25 @@ header {
 }
 h1 {
 	color: #fff;
+}
+ol {
+	line-height: 2;
+	text-transform: capitalize;
+}
+ol li {
+	color: #fff;
+	font-size: 25px;
+}
+
+ol li a {
+	color: #fff;
+}
+
+section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#url_container {
+	width: 50%;
 }
