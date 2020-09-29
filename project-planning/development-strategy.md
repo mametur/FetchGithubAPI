@@ -1,43 +1,42 @@
-# JavaScript Quiz
+# Development Strategy
 
-...
+> `Fetch Github API`
 
----
+A basic web page aim to learn Fetch API.
 
-## User Story Dependencies
+## Wireframe
 
-[Story Dependency Diagram](https://excalidraw.com/)
+![wireframe](./fetcAPI.png)
 
----
+## 0. Set-Up
 
-## WIREFRAME
+_A User can see my initial repository and live demo_
 
-![wireframe]()
+### Repository
 
----
+- Created a new repository from this [template](https://github.com/HackYourFutureBelgium/array-of-numbers)
+- Clone the repository
+- Write initial, basic README
+- Add a wireframe
+- Start the development strategy
+- Prepare a project board
+- Push the changes to GitHub
+- Turn on GitHub Pages
 
-## 0.Setup
+## 1. Basic Style
 
----
+**As a site visitor, I want to se styled website.**
 
-## 1. Initialize Application
+This user story has been developed through a branch called 'style'.
 
-__As a user I want to see the initial page when I load the site__
+### HTML
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
-- ...
+No changes
 
-### REPO
+### CSS
 
-- This user story is developed on branch `_`.
-- This branch is merged to `master` branch after completion.
+Styled header.
 
-### Task A
+### javascript
 
-### Task B
-
-### Task ...
-
----
-
-## ...
+No changes
