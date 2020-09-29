@@ -14,7 +14,7 @@ _A User can see my initial repository and live demo_
 
 ### Repository
 
-- Created a new repository from this [template](https://github.com/HackYourFutureBelgium/array-of-numbers)
+- Created a new repository from this [template](https://github.com/HackYourFutureBelgium/starter-basic-import-export)
 - Clone the repository
 - Write initial, basic README
 - Add a wireframe
