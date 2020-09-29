@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+	<head>
+		<meta charset="utf8" />
+		<title></title>
 
-<head>
-  <meta charset='utf8'>
-  <title></title>
+		<link href="./public/style.css" rel="stylesheet" />
+	</head>
 
-  <link href="./public/style.css" rel="stylesheet" />
+	<body>
+		<header>
+			<div class="header_wrapper">
+				<h1 id="header">My HYF Projects</h1>
+			</div>
+		</header>
 
-</head>
+		<section>
+			<div id="api_container"></div>
+		</section>
 
-<body>
+		<!-- load the frontend testing & reviewing dependencies -->
+		<script src="./lib/review-buttons.js" type="module"></script>
+		<script src="./lib/gremlins.js"></script>
 
-  <main id='user-interface'>
-    <input id='list-name-input' />
-    <div id='lists'></div>
-  </main>
-
-
-  <!-- load the frontend testing & reviewing dependencies -->
-  <script src='./lib/review-buttons.js' type='module'></script>
-  <script src='./lib/gremlins.js'></script>
-
-  <!-- load your app -->
-  <script type='module' src='./src/init.js'></script>
-
-</body>
-
+		<!-- load your app -->
+		<script type="module" src="./src/init.js"></script>
+	</body>
 </html>
